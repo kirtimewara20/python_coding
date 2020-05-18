@@ -1,0 +1,23 @@
+#Assigning elements to different list 
+
+list1 = ['physics', 'chemistry', 1997, 2000];
+list2 = [1, 2, 3, 4, 5 ];
+list3 = ["a", "b", "c", "d"]
+print(list1)
+print(list2)
+print(list3)
+
+
+#Accessing tuple elements using indexing
+
+my_tuple = ('p','e','r','m','i','t')
+print(my_tuple[0])   
+print(my_tuple[5])  
+
+
+#deleting dictionary elements
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'seventh'}
+del dict['Name']; # remove entry with key 'Name'
+print(dict)
+dict.clear();     # remove all entries in dict
+print(dict)
