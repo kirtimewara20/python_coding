@@ -16,6 +16,7 @@ print(my_tuple[5])
 
 
 #deleting dictionary elements
+
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'seventh'}
 del dict['Name']; # remove entry with key 'Name'
 print(dict)
